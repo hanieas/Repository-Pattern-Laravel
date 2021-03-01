@@ -25,6 +25,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(MarketRepositoryInterface::class,MarketRepository::class);
         $this->app->bind(ProductRepositoryInterface::class,ProductRepository::class);
         $this->app->bind(CategoryRepositoryInterface::class,CategoryRepository::class);
+
     }
 
     /**
